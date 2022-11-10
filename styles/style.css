@@ -1,3 +1,17 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: black;
+  color: white;
+}
+
 h1 {
-  color: red;
+  font-family: "DM Serif Display", serif;
+}
+.hero {
+  padding: 270px 0 130px;
+  text-align: center;
+}
+#carouselExampleControls {
+  max-width: 30%;
+  margin: 0 auto;
 }
