@@ -1,17 +1,33 @@
+:root {
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "DM Serif Display", serif;
+}
 body {
-  font-family: "Poppins", sans-serif;
-  background: black;
-  color: white;
+  font-family: var(--default-font-family);
 }
 
 h1 {
-  font-family: "DM Serif Display", serif;
+  font-family: var(--secondary-font-family);
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+h5 {
+  font-size: 15px;
+  text-align: center;
+  font-family: var(--secondary-font-family);
 }
 .hero {
   padding: 270px 0 130px;
   text-align: center;
+  background: #222831;
+  color: white;
 }
-#carouselExampleControls {
-  max-width: 30%;
-  margin: 0 auto;
+.hero h1 {
+  font-size: 125px;
+}
+.hero h3 {
+  font-size: 60px;
 }
