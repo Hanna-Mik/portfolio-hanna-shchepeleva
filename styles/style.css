@@ -4,8 +4,6 @@
   --heading-font-family: "DM Serif Display", serif;
 }
 body {
-  background: #222831;
-  color: white;
 }
 
 h1 {
@@ -20,10 +18,17 @@ h5 {
 p {
   font-family: var(--secondary-font-family);
 }
+a {
+  font-family: var(--secondary-font-family);
+  color: #222831;
+  opacity: 0.7;
+}
 
 .hero {
-  padding: 170px 0 130px;
+  padding: 170px 0;
   text-align: center;
+  background: #222831;
+  color: white;
 }
 .hero h1 {
   font-size: 100px;
@@ -48,4 +53,18 @@ p {
   font-size: 15px;
   opacity: 0.7;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 10px 100px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  .hero h3 {
+    font-size: 30px;
+  }
 }
