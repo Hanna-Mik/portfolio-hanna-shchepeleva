@@ -3,8 +3,6 @@
   --secondary-font-family: "Roboto", sans-serif;
   --heading-font-family: "DM Serif Display", serif;
 }
-body {
-}
 
 h1 {
   font-family: var(--heading-font-family);
