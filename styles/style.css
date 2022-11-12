@@ -140,7 +140,7 @@ footer .github-link:hover {
 }
 @media (max-width: 768px) {
   .hero {
-    padding: 120px 10px 90px;
+    padding: 110px 15px 60px;
   }
   .hero h1 {
     font-size: 40px;
@@ -151,8 +151,11 @@ footer .github-link:hover {
   .hero h3 {
     font-size: 30px;
   }
+  .content h1 {
+    font-size: 34px;
+  }
   .content-container {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
   }
   footer .email-link {
