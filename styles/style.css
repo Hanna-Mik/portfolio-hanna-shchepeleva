@@ -3,15 +3,7 @@
   --secondary-font-family: "Roboto", sans-serif;
   --heading-font-family: "DM Serif Display", serif;
 }
-body {
-  background: linear-gradient(
-    109.6deg,
-    rgb(36, 45, 57) 11.2%,
-    rgb(16, 37, 60) 51.2%,
-    rgb(0, 0, 0) 98.6%
-  );
-  color: white;
-}
+
 h1 {
   font-family: var(--heading-font-family);
 }
@@ -26,16 +18,23 @@ h5 {
 }
 a {
   font-family: var(--secondary-font-family);
-  color: white;
 }
 footer {
   margin: 50px auto 50px;
 }
 
 .hero {
-  padding: 170px 0;
+  background: linear-gradient(
+    to top,
+    lightgrey 0%,
+    lightgrey 1%,
+    #e0e0e0 26%,
+    #efefef 48%,
+    #d9d9d9 75%,
+    #bcbcbc 100%
+  );
+  padding: 170px 0 255px;
   text-align: center;
-  color: white;
 }
 .hero h1 {
   font-size: 100px;
@@ -51,6 +50,17 @@ footer {
   padding: 15px 30px;
   font-family: var(--secondary-font-family);
   font-size: 20px;
+  background: #facf0f;
+  border: none;
+}
+.content .content-container {
+  padding: 100px;
+}
+.content h3 {
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #facf0f;
 }
 .content h4 {
   font-size: 20px;
@@ -58,13 +68,11 @@ footer {
   padding: 20px;
 }
 .content h5 {
-  font-size: 18px;
-  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 .content p {
   font-size: 15px;
-
-  text-align: center;
 }
 footer .email-link {
   font-size: 24px;
