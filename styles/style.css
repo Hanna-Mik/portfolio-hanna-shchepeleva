@@ -27,7 +27,10 @@ a {
 footer {
   margin: 50px auto 50px;
 }
-
+.logo {
+  font-size: 40px;
+  color: var(--branding-color);
+}
 .hero {
   background: linear-gradient(
     to top,
@@ -38,7 +41,7 @@ footer {
     #d9d9d9 75%,
     #bcbcbc 100%
   );
-  padding: 170px 0 255px;
+  padding: 244px 0 255px;
   text-align: center;
 }
 .hero h1 {
@@ -66,8 +69,9 @@ footer {
   border: 1px solid var(--branding-color);
   background: var(--secondary-color);
 }
-.content .content-container {
+.content-container {
   padding: 70px;
+  text-align: start;
 }
 
 .content h3 {
@@ -125,7 +129,7 @@ footer .github-link:hover {
 }
 @media (max-width: 768px) {
   .hero {
-    padding: 80px 10px 100px;
+    padding: 120px 10px 90px;
   }
   .hero h1 {
     font-size: 40px;
@@ -136,4 +140,12 @@ footer .github-link:hover {
   .hero h3 {
     font-size: 30px;
   }
+  .content-container {
+    padding: 15px;
+    text-align: center;
+  }
+  footer .email-link {
+  font-size: 20px;
+ 
+
 }
