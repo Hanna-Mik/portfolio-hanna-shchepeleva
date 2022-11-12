@@ -28,7 +28,7 @@ footer {
   margin: 50px auto 50px;
 }
 .logo {
-  font-size: 40px;
+  font-size: 25px;
   color: var(--branding-color);
 }
 .hero {
@@ -145,7 +145,6 @@ footer .github-link:hover {
     text-align: center;
   }
   footer .email-link {
-  font-size: 20px;
- 
-
+    font-size: 20px;
+  }
 }
