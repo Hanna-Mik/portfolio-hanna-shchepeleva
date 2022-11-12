@@ -50,9 +50,13 @@ footer {
 .branding-button {
   padding: 15px 30px;
   font-family: var(--secondary-font-family);
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 600;
   background: var(--branding-color);
   border: none;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  text-transform: uppercase;
+  transition: all 100ms ease-in;
 }
 .content .content-container {
   padding: 100px;
