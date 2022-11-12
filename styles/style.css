@@ -1,5 +1,6 @@
 :root {
   --branding-color: #facf0f;
+  --secondary-color: #bdbdbd;
   --primary-font-family: "Poppins", sans-serif;
   --secondary-font-family: "Roboto", sans-serif;
   --heading-font-family: "Source Sans Pro", sans-serif;
@@ -19,7 +20,10 @@ h5 {
 }
 a {
   font-family: var(--secondary-font-family);
+  color: black;
+  opacity: 0.8;
 }
+
 footer {
   margin: 50px auto 50px;
 }
@@ -58,6 +62,10 @@ footer {
   text-transform: uppercase;
   transition: all 100ms ease-in;
 }
+.branding-button:hover {
+  border: 1px solid var(--branding-color);
+  background: var(--secondary-color);
+}
 .content .content-container {
   padding: 70px;
 }
@@ -86,9 +94,34 @@ footer .email-link {
   font-size: 24px;
   text-decoration: none;
 }
+footer .email-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--branding-color);
+  color: black;
+  opacity: 0.8;
+}
 footer .social-media-links a {
   font-size: 32px;
   margin: 15px;
+  padding: 10px 15px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  transition: all 100ms ease-in;
+}
+footer .social-media-links a:hover {
+  border: 1px solid var(--branding-color);
+
+  color: black;
+}
+footer .github-link {
+  text-decoration: none;
+  transition: all 100ms ease-in;
+}
+footer .github-link:hover {
+  color: black;
+  opacity: 0.8;
+  text-decoration: underline;
+  text-decoration-color: var(--branding-color);
 }
 @media (max-width: 768px) {
   .hero {
